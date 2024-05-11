@@ -10,6 +10,10 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+    h2 {
+        font-size: clamp(2rem, 2rem + 2vw, 3rem)
+    }
+
     ol, a {
         list-style: none;
         text-decoration: none;

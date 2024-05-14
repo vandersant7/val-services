@@ -1,15 +1,11 @@
-import { About } from './About'
-import { Services } from './Servicos'
-import { GlobalStyles } from './globalStyles'
-import { Home } from './pages/Home'
+import Header from "./components/Header/Header"
+import HomePage from "./page/Home"
 
 function App() {
   return (
     <>
-      <GlobalStyles />
-      <Home />
-      <About />
-      <Services />
+      <Header />
+      <HomePage />
     </>
   )
 }

@@ -1,5 +1,5 @@
 import { MenuContainer } from "./styles";
-import { MenuItens } from "../../helper/MenuItens";
+import { MenuItens } from "../../helper/menu";
 
 export const MenuMobile = () => {
 

@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  position: sticky;
-  height: 6.5vh;
+  position: absolute;
+  min-height: 75px;
+  padding: 20px 40px;
   width: 100vw;
   background-color: #121212;
   color: #eee;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
+  z-index: 9999;
 `
 
 export const ContainerNav = styled.div`
@@ -22,6 +24,15 @@ export const ContainerNav = styled.div`
 
   a {
     color: #eee;
+    padding: 0.6rem 1rem;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+      padding: 1rem;
+      background-color: #eee;
+      color: #222;
+      border-radius: 35px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -30,11 +41,12 @@ export const ContainerNav = styled.div`
 `
 
 export const BtnHamburger = styled.div`
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items: center;
   right: 18px;
   z-index: 999;
+  transition: .2s ease-in;
 
   @media (min-width: 769px) {
     display: none;

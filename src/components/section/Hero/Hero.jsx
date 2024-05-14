@@ -11,7 +11,7 @@ function Hero() {
       </StyledTitle>
       <FloatingWhatsApp
         phoneNumber="+5571988089662"
-        accountName="Val Sercice"
+        accountName="Val Service"
         avatar={avatar}
         initialMessageByServer='Olá, como podemos ajudar?
         '

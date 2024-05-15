@@ -13,6 +13,19 @@ export const Container = styled.div`
   justify-content: center;
   padding: 1rem;
   z-index: 9999;
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2rem;
+    width: 50px;
+    height: auto;
+
+    img {
+      max-width: 100%;
+    }
+  }
 `
 
 export const ContainerNav = styled.div`

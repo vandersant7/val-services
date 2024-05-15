@@ -9,6 +9,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 
   @media (max-width: 425px) {
     height: 70vh;
@@ -30,7 +31,7 @@ export const StyledCover = styled.div`
 `
 
 export const StyledTitle = styled.div`
-  padding: 20px;
+  padding: 2rem;
   display: flex;
   height: 70vh;
   width: 100%;

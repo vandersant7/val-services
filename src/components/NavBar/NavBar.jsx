@@ -3,6 +3,7 @@ import { MenuItens } from "../../helper/menu"
 import { FiMenu, FiX } from "react-icons/fi"
 import { BtnHamburger, Container, ContainerNav } from "./styles"
 import { MenuMobile } from "../MenuMobile"
+import avatar from '../../assets/Logo.svg'
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -39,7 +40,9 @@ function NavBar() {
   
     return (
       <Container ref={domNode}>
-  
+        <div className="img">
+        <img src={avatar} alt="Logo" />
+        </div>
         <ContainerNav >
           {MenuItens.map((item, i) => (
             <ol key={i}>

@@ -6,7 +6,8 @@ function Hero() {
   return (
     <HeroContainer>
       <StyledTitle>
-        <h1>VAL SERVICE</h1>
+        <img src={avatar} alt="Logo" />
+        <br />
         <span>Segurança, qualidade e pontualidade</span>
       </StyledTitle>
       <FloatingWhatsApp

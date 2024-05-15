@@ -5,7 +5,7 @@ export const Container = styled.div`
   min-height: 75px;
   padding: 20px 40px;
   width: 100vw;
-  background-color: #121212;
+  background-image: linear-gradient(to right bottom, #292933, #2b2b35, #2d2d37, #2f2f39, #31313b);
   color: #eee;
 
   display: flex;

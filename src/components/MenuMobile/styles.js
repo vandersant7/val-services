@@ -11,7 +11,7 @@ export const MenuContainer = styled.div`
   top: 73px;
   right: 0;
   max-height: 80vh;
-  background-color: #121212;
+  background-color: var(--dark-primary-color);
   transform: translateX(0%);
   transition: transform 0.5s ease-in-out;
   font-size: 2rem;

@@ -21,4 +21,15 @@ export const Globalstyles = createGlobalStyle`
     img {
     max-width: 100%;
 }
+
+:root{
+    --dark-primary-color: #292933;
+    --dark-secondary-color: #31313B;
+
+    --blue-soft-color: #2A27E6;
+    --blue-medium-color: #413FBA;
+
+    --violet-dark-color: #454466;
+    --violet-medium-color: #4A4991;
+}
 `

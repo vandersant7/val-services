@@ -1,10 +1,21 @@
 import { styled } from 'styled-components'
 
-export const AboutConctainer = styled.div`
+export const AboutContainer = styled.div`
+    background-color: #eee;
+    margin-top: 3rem;
+    transition: .5s ease-in;
+
+  > h2 {
+    padding: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+`
+
+export const AboutContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
-  background-color: #eee;
 
   .item {
     padding: 10%;
@@ -16,7 +27,7 @@ export const AboutConctainer = styled.div`
   }
 
   h2 {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   p {
@@ -24,6 +35,7 @@ export const AboutConctainer = styled.div`
   }
 
   img {
+    margin-bottom: 1rem;
     width: 100%;
     object-fit: cover;
   }

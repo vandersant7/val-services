@@ -19,7 +19,9 @@ function Contact() {
 
         <div className='info-detail'>
           <MdEmail size={25} />
-          <span>valservce@gmail.com </span>
+          <span>valservice@gmail.com <br />
+            dermeval.almeida@hotmail.com
+          </span>
         </div>
       </ContactInfo>
     </ContainerContact>

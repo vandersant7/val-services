@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerContact = styled.div`
-    background-color: var(--dark-primary-color);
+    background-color: var(--dark-secondary-color);
     color: #e1e1e1;
     min-height: 30vh;
     padding: 5% 10%;

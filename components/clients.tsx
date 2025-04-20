@@ -25,16 +25,14 @@ export default function Clients() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   }
 
-  // Simulação de logos de clientes
   const clients = [
-    { name: "Empresa A", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa B", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa C", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa D", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa E", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa F", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa G", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Empresa H", logo: "/placeholder.svg?height=100&width=200" },
+    { name: "Americanas S.A.", logo: "/" },
+    { name: "Atacadão S/A", logo: "/" },
+    { name: "Fábrica Ypê", logo: "/" },
+    { name: "MFX do Brasil", logo: "/" },
+    { name: "Natura Brasil", logo: "/" },
+    { name: "Grupo Big", logo: "/" },
+    { name: "Logic Logística", logo: "/" },
   ]
 
   return (
@@ -67,13 +65,17 @@ export default function Clients() {
               variants={itemVariants}
               className="flex items-center justify-center p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow"
             >
-              <Image
+
+              <div className="max-x-full h-auto grayscale hover:grayscale-0 transition-all duration-300 flex flex-col justify-center items-center">
+                <h3 className="w-[200px] h-[100px] text-lg font-bold mb-2 flex items-center justify-center">{client.name}</h3>
+              </div>
+              {/* <Image
                 src={client.logo || "/placeholder.svg"}
                 alt={`Logo ${client.name}`}
                 width={200}
                 height={100}
                 className="max-w-full h-auto grayscale hover:grayscale-0 transition-all duration-300"
-              />
+              /> */}
             </motion.div>
           ))}
         </motion.div>

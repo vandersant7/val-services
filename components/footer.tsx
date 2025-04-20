@@ -97,7 +97,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contato</h3>
             <address className="not-italic text-gray-400 space-y-2">
               
-              <p>contato@valservice.com.br</p>
+              <p>dermeval.almeida@hotmail.com</p>
               <p>(71) 98808-9662</p>
               <p>(71) 99309-4342</p>
             </address>

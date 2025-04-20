@@ -99,7 +99,7 @@ export default function Contact() {
                 <Mail className="w-5 h-5 text-blue-600 mt-1 mr-3" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">contato@valservice.com.br</p>
+                  <p className="text-muted-foreground">dermeval.almeida@hotmail.com</p>
                 </div>
               </div>
 
@@ -117,7 +117,7 @@ export default function Contact() {
               <h4 className="text-xl font-medium mb-4">Horário de Atendimento</h4>
               <p className="text-muted-foreground">Segunda a Sexta: 8h às 18h</p>
               <p className="text-muted-foreground">Sábado: 9h às 13h</p>
-              <p className="text-muted-foreground">Plantão 24h para clientes</p>
+              {/* <p className="text-muted-foreground">Plantão 24h para clientes</p> */}
             </div>
           </motion.div>
 
